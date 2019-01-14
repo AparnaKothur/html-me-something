@@ -1,7 +1,7 @@
 *
 {
     margin: 0;
-    padding : 0;
+    padding: 0;
 }
 header
 {
@@ -17,16 +17,14 @@ header
     margin-top: 30px;
 
 }
-.main-nav li{
-    display: inline-block;
-}
 .main-nav li a{
-    color:black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto",sans-serif;
-    font-size: 15px;
-}
+    display: inline-block;
+    margin-right: lem;
+    
+    }
+.main-nav  a:hover {
+        background-color: blueviolet
+      }
 body{
     font-family: monospace;
 }
@@ -47,3 +45,12 @@ h1{
     text-align: center;
     margin-top: 275px;
 }
+/*.main-nav a:link, a:visited {
+    color:black;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    background-color: pink;
+    font-size: 15px;
+      }*/
+  
+  
